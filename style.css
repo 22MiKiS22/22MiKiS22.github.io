@@ -1,0 +1,137 @@
+.header {
+  background: #222;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a:link, a:visited, a:active {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+main{
+  margin-top: 70px;
+}
+
+.page {
+  display: flex;
+}
+
+.img {
+  width: 50%;
+}
+
+.side {
+  position: relative;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.text {
+  bottom: 0px;
+  margin-bottom: 60px;
+  margin-left: 7%;
+  position: absolute;
+  font-size: 2vw;
+  color: rgb(221,253,255);
+  mix-blend-mode: difference;
+}
+
+.name {
+  bottom: 0px;
+  margin-bottom: 30px;
+  margin-left: 7%;
+  position: absolute;
+  font-size: 4vw;
+  color: rgb(221,253,255);
+  mix-blend-mode: difference;
+}
+
+/*
+.side {
+  position: relative;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+}
+
+.img {
+  width: 100%;
+}
+
+.text {
+  bottom: 0px;
+  margin-bottom: 60px;
+  margin-left: 7%;
+  position: absolute
+}
+
+.name {
+  bottom: 0px;
+  margin-bottom: 30px;
+  margin-left: 7%;
+  position: absolute
+}
+
+.citate {
+  background: #222;
+  color: white;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+}
+
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+.achievement {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+}
+
+.special {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 0px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+h4 {
+  margin-bottom: 3px;
+}
+
+.line {
+  background: black;
+  width: 100%;
+  height: 4px;
+  margin: 40px 0px 50px 0px;
+}
+
+#last {
+  margin-bottom: 50px;
+}
+
+blockquote::before {
+  content: '”';
+  font-size: 130px;
+  line-height: 100px;
+}*/
